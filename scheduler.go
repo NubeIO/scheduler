@@ -82,5 +82,4 @@ func (sch *scheduler) Start() {
 
 func (sch *scheduler) Shutdown() error {
 	return sch.cronScheduler.Shutdown()
-
 }
